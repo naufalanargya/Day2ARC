@@ -1,3 +1,4 @@
+// Naufal Bhanu Anargyarahman (16520102) 
 function darkmode() {
   var element = document.body;
   element.classList.toggle("darkmode");
