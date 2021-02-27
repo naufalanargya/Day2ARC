@@ -9,11 +9,15 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    place-items: center;
+    place-items: center; 
+  }
+
+  .darkmode {
+    background-color: #202020;
   }
   
   nav {
-    height: 70px;
+    height: 80px;
     position: absolute;
     top: 0;
     right: 0;
@@ -40,7 +44,7 @@
   }
   
   form {
-    width: 47.5vw;
+    width: 55vw;
   }
   
   .main-logo {
@@ -48,6 +52,8 @@
     padding: 0 20% 5vh;
   }
   
+  .buttons {
+      }
   .search-input input {
     width: 100%;
     height: var(--input-height);
